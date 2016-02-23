@@ -1,2 +1,9 @@
 ## PluginSDK
-   这是一个android的插件系统sdk，里面集成了四大组件的基本东西。还有插件的下载，插件的桌面快捷方式，插件调起插件等功能。可以这套插件系统是通过interface的方式实现activity生命周期的，在写插件的时候不能将这个sdk打包进去。否则会放生错误，其次，这个插件系统可以之间使用this。
+   1、这是一个android的插件系统sdk，基于interface的方式实现activity生命周期的管理。
+   2、支持宿主app与插件App实时通信。
+   3、支持四大组件（Activity, Service，BroadcastReceiver, ContentProvider）。
+   4、支持插件调用插件。
+   5、支持插件快捷方式访问。
+   6、插件开发和平常的app开发一样。
+   7、插件打包的时候请不要插件sdk打包进去，以provide的形式编译。
+
